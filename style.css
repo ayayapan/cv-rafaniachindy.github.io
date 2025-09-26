@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #fff;
+    --secondary: #6d0404;
+    --third: #410404;
+    --gray: #e3e3e3;
+}
+
+html {
+    font-size: 10px;
+
+}
+
+body {
+    background-color: var(--gray);
+    font-family: Poppins, sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.resume_box {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 100px auto;
+    background: var(--primary);
+    box-shadow: 5px 21px 20px 20px #3d3f4238;
+    border-radius: 25px;
+}
+
+.left_section {
+    background: var(--third);
+    width: 11cm;
+    height: 29.7cm;
+    float: left;
+    border-radius: 25px 60px 60px 25px;
+}
+
+.profile {
+    overflow: hidden;
+    position: relative;
+}
+
+.profile_profileImg {
+    margin-left: 30px;
+    margin-top: 17px;
+}
+
+.profile_container {
+    display: flex;
+    /* gap: 2res; */
+    background: var(--secondary);
+    width: 20.4cm;
+    height: 6.45cm;
+    margin-top: 75px;
+    margin-left: 12px;
+    box-shadow: 60px #3d3f4238;
+    border-radius: 37px;
+}
+
+
+/* .profile_name {
+    margin-top: 1rem;
+} */
+
+.profile_firstName {
+    color: #fff;
+    font-weight: 800;
+    font-size: clamp(3rem, 12vw, 4.05rem);
+    display: block;
+    margin-bottom: -1rem;
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+
+.profile_lastName {
+    color: white;
+    font-weight: 400;
+    font-size: clamp(3rem, 12vw, 4rem);
+    display: block;
+    margin-bottom: -1rem;
+    margin-left: 3rem;
+}
+
+.Lsection_title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 4rem;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom:2px solid #fff;
+}
+
+.section_aboutMe {
+    margin-top: 10rem;
+}
+
+.Lsection_content {
+    font-size: 1.7rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+}
+
+.Lsection_list {
+    font-size: 1.7rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 6rem;
+    margin-right: 2rem;
+}
+
+.right_section {
+    margin-top: 30rem;
+    width: 10cm;
+    height: 50%cm;
+    float: right;
+    border-radius: 25px 60px 60px 25px;
+}
+
+.Rsection_title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    color: var(--secondary);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom:2px solid var(--secondary);
+}
+
+.Rsection_list {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+    color: var(--secondary);
+    margin-left: 6rem;
+    margin-right: 2rem;
+}
+
+.timeline {
+    list-style: none;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    position: relative;
+    padding-left: 2rem;
+    border-left: 3px solid var(--secondary);
+}
+
+.timeline li {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.timeline li::before {
+    content: "";
+    position: absolute;
+    left: -1.2rem;
+    top: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: var(--secondary);
+    border-radius: 50%;
+}
+
+.timeline h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--third);
+}
+
+.timeline p {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.lang_list {
+    list-style: none;
+    margin: 2rem;
+    padding: 0;
+}
+
+.lang_list li {
+    margin-bottom: 2rem;
+}
+
+.lang_list span {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--secondary);
+}
+
+.lang_bar {
+    width: 90%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lang_bar span {
+    display: block;
+    height: 100%;
+    background: var(--secondary);
+    border-radius: 10px;
+}
